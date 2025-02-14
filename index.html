@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Family Grocery List</title>
+	<link rel="stylesheet" href="styles.css">
+	<script type="module" src="script.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+  <body>
+	<header class="header">
+	  <div class="header-content">
+		<h1 class="header-title">SHALINI Grocery List</h1>
+		<p class="header-description">Effortlessly manage your family's grocery needs.</p>
+	  </div>
+	</header>
+
+	<main class="main">
+	  <section class="input-section">
+		<div class="input-container">
+		  <input type="text" id="itemName" placeholder="Add an item" class="input-item">
+		  <input type="number" id="quantity" placeholder="Quantity" class="input-item">
+		  <input type="text" id="weight" placeholder="Weight (Optional)" class="input-item">
+		  <button class="add-button" onclick="addItem()">
+			<i class="fas fa-plus"></i> Add
+		  </button>
+		</div>
+	  </section>
+
+	  <section class="checklist-section">
+		<h2 class="checklist-title">
+		  <i class="fas fa-clipboard-list"></i> Grocery List
+		</h2>
+		<ul id="itemList" class="checklist">
+		  <!-- List items will be dynamically added here -->
+		</ul>
+	  </section>
+	</main>
+
+	<footer class="footer">
+	  <p>&copy; 2023 Family Grocery List. All rights reserved.</p>
+	</footer>
+  </body>
+</html>
