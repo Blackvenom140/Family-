@@ -2,15 +2,16 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase
 import { getDatabase, ref, push, set, onValue, remove, update } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyC8Qc9fB-D8nNxaLlwlshoJrzxRwtDpVI0",
-    authDomain: "family-71e48.firebaseapp.com",
-    databaseURL: "https://family-71e48-default-rtdb.firebaseio.com",
-    projectId: "family-71e48",
-    storageBucket: "family-71e48.firebasestorage.app",
-    messagingSenderId: "883664987433",
-    appId: "1:883664987433:web:cf2809efa81dcf9c218338",
-    measurementId: "G-EZQ2WJHDKD"
+  apiKey: "AIzaSyDQZz7ZSYUMRpU2rqkCB-jDYnUISt_8sPw",
+  authDomain: "otp-system-66bb9.firebaseapp.com",
+  databaseURL: "https://otp-system-66bb9-default-rtdb.firebaseio.com",
+  projectId: "otp-system-66bb9",
+  storageBucket: "otp-system-66bb9.firebasestorage.app",
+  messagingSenderId: "1061367534933",
+  appId: "1:1061367534933:web:cd93446243997ea797cbdc",
+  measurementId: "G-J347YB4H09"
 };
+
 
 const app = initializeApp(firebaseConfig);
 const db = getDatabase(app);
